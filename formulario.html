@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ejemplo</title>
+</head>
+<body>
+    
+    <!--Nombre, apellidos y clave-->
+    <h1>Formulario Ejemplo</h1>
+    <form action="">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre"> <br><br>
+        <label for="Apellidos">Apellidos</label>
+        <input type="text" id="Apellidos" name="Apellidos"> <br><br>
+        <label for="Fec_nacimiento">Fecha de nacimiento</label>
+        <input type="date" id="Fec_nacimiento" name="Fec_nacimiento"> <br><br>
+        <label for="clave">Contraseña</label>
+        <input type="password" name="clave" id="clave"> <br><br>
+        
+        <!--Estado civil-->
+        <p>¿Cual es tu estado civil?</p>
+        <input type="radio" id="Soltero" name="estado_civil" value="Soltero">
+        <label for="Soltero">Soltero</label> <br>
+        <input type="radio" id="Casado" name="estado_civil" value="Casado">
+        <label for="Casado">Casado</label> <br>
+        <input type="radio" id="Viudo" name="estado_civil" value="Viudo">
+        <label for="Viudo">Viudo</label> <br>
+        <input type="radio" id="Divorciado" name="estado_civil" value="Divorciado">
+        <label for="Divorciado">Divorciado</label> <br>
+
+        <!--Electrodomesticos en casa-->
+        <p>¿Que electrodomesticos tienes en casa?</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="lavadora">
+        <label for="vehicle1">Tengo una lavadora</label> <br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="televison">
+        <label for="vehicle2">Tengo una television</label> <br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="microondas">
+        <label for="vehicle3">Tengo un microondas</label> <br>
+        <input type="checkbox" id="vehicle4" name="vehicle3" value="refrigerador">
+        <label for="vehicle4">Tengo un refrigerador</label> <br><br>
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
