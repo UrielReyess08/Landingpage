@@ -1,3 +1,50 @@
 body{
     background-color: aliceblue;
+    margin: 0;
+    padding: 5px 30px;
+}
+
+.contenido{
+    display: flex;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+input{
+    width: 490px;
+    height: 23px;
+    padding: 10px;
+}
+
+select{
+    width: 515px;
+    height: 45px;
+    padding: 10px;
+}
+
+.contenido1{
+    width: 515px;
+    height: 45px;
+    background-color: skyblue;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input, select{
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.boceto{
+    width: 400px;
+    height: 600px;
+    margin: 0px 120px;
 }
